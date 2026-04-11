@@ -478,6 +478,11 @@ img {
 .footer-subscribe-input {
   width: 264px;
   height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
   border: none;
   border-radius: 4px;
   padding: 8px 16px;
@@ -501,9 +506,7 @@ img {
   outline: transparent;
   border-color: #31d0aa;
 }
-.footer-subscribe-input:focus::placeholder {
-  color: #31d0aa;
-}
+
 
 .footer-subscribe-button {
   font-family: "Roboto", sans-serif;
@@ -624,7 +627,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-label {
@@ -722,7 +725,7 @@ img {
 .modal-checkbox-input:checked + .modal-checkbox-label > .check-mark {
   background-color: #404bbf;
   border-color: #404bbf;
-  fill: #f4f4f4;
+  fill: #f4f4fd;
 }
 
 .modal-button {
