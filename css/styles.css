@@ -507,7 +507,6 @@ img {
   border-color: #31d0aa;
 }
 
-
 .footer-subscribe-button {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
@@ -627,7 +626,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -669,6 +668,10 @@ img {
 
 .modal-input:focus + .modal-field-icon {
   fill: #4d5ae5;
+}
+
+.modal-field-textarea {
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
